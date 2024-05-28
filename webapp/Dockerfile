@@ -1,6 +1,7 @@
 FROM python:3.6
 
 EXPOSE 5000
+ENV FLASK_APP=run.py
 
 WORKDIR /app
 COPY . /app
